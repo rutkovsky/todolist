@@ -19,6 +19,7 @@ export const Tasks = (props: PropsType) => {
                     return (
                         <li key={el.taskId}><input type="checkbox" checked={el.isDone}/><span>{el.title}</span></li>)
                 })}
+
             </ul>
             <h3>Students</h3>
             <ul>
